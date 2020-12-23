@@ -26,7 +26,7 @@ namespace MassTransit.Azure.ServiceBus.Core.Tests.Turnout
 
 
     [TestFixture]
-    public class Submitting_a_job_to_turnout :
+    public class Submitting_a_job_to_turnout_statuscheck_across_entitypaths :
         AzureServiceBusTestFixture
     {
         [Test]
